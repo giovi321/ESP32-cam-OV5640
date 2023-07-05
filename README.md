@@ -25,6 +25,7 @@ The case is made of 4 components:
 - The cover with a hole for the lenses
 - The wall-attached ball joint socket
 - The ball joint to be attached to the shell of the case
+
 To screw everything in, you'll need 2.6mm autotapping screws such as [these](https://www.aliexpress.com/item/1005003330377202.html).
 
 ![ESPCam_OV5640_case_v1](https://github.com/giovi321/ESP32-cam-OV5640/assets/6443515/53e716f2-12ed-4c58-8251-7aab297eb73b)
