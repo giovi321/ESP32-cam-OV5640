@@ -16,7 +16,7 @@ as published by Sam Hocevar. See the LICENSE file for more details.
 ```
 
 # ESPHome code
-Find the code in the file ESPHome_OV5640.yaml.
+Find the code in [this file](ESPHome_OV5640.yaml).
 The explanation is simple, the variables that change compared to other board drivers are:
 - 12Mhz frequency of the camera
 - GPIO pinout
