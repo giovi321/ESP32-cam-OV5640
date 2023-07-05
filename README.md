@@ -6,7 +6,7 @@ In this repository, I have published the ESPHome code to configure it and a desi
 The content of this repository is licensed under the [WTFPL](http://www.wtfpl.net/).
 
 ```
-Copyright © 2023 giovi321
+Copyright Â© 2023 giovi321
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the LICENSE file for more details.
@@ -23,6 +23,6 @@ The case is designed with Sketchup in meters (Sketchup doesn't handle well milli
 The case is made of 4 components:
 - The shell of the case
 - The cover with a hole for the lenses
-- The wall-attached ball joint
+- The wall-attached ball joint socket
 - The ball joint to be attached to the shell of the case
 To screw everything in, you'll need 2.6mm autotapping screws such as [these](https://www.aliexpress.com/item/1005003330377202.html).
