@@ -2,6 +2,9 @@ ESP32 Cam with driver OV5640 is a pretty good ESP32Cam that can be found online.
 However, we struggle to configure it on ESPHome and to find a case designed for it.
 In this repository, I have published the ESPHome code to configure it and a design for a 3D printed case that fits like a glove.
 
+![image](https://github.com/giovi321/ESP32-cam-OV5640/assets/6443515/f90ed446-8e4a-454d-bb1e-a4d755ac3189)
+
+
 # License
 The content of this repository is licensed under the [WTFPL](http://www.wtfpl.net/).
 
