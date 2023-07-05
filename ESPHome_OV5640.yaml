@@ -1,0 +1,53 @@
+esphome:
+  name: espcam-01
+  friendly_name: ESP-cam-1
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "xxxxxxx"
+
+ota:
+
+
+wifi:
+  ssid: "SSID"
+  password: "password"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "SSID"
+    password: "password"
+
+captive_portal:
+
+esp32_camera:
+  name: ESPcam
+  external_clock:
+    pin: GPIO15
+    frequency: 12MHz
+  i2c_pins:
+    sda: GPIO22
+    scl: GPIO23
+  data_pins: [GPIO2, GPIO14, GPIO35, GPIO12, GPIO27, GPIO33, GPIO34, GPIO39]
+  vsync_pin: GPIO18
+  href_pin: GPIO36
+  pixel_clock_pin: GPIO26
+  reset_pin: GPIO5
+  resolution: 1280x1024
+  jpeg_quality: 15
+  vertical_flip: False
+
+esp32_camera_web_server:
+  - port: 8080
+    mode: stream
+  - port: 8081
+    mode: snapshot
