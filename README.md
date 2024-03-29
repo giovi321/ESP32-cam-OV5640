@@ -29,7 +29,10 @@ The case is made of 4 components:
 - The wall-attached ball joint socket
 - The ball joint to be attached to the shell of the case
 
-To screw everything in, you'll need 2.6mm autotapping screws such as [these](https://www.aliexpress.com/item/1005003330377202.html).
+To screw everything in, you'll need:
+- 2.0mm autotapping screws to fix the ESP board to the case
+- 2.5mmx6x3.5mm threaded inserts to fix the lid to the box
+- M2.5 threaded screws to fix the lid to the box
 
 ![ESPCam_OV5640_case_v1](https://github.com/giovi321/ESP32-cam-OV5640/assets/6443515/53e716f2-12ed-4c58-8251-7aab297eb73b)
 
